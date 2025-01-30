@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.cal-contanier {
+  background-color: black;
+  width: 300px;
+  height: 500px;
+  position: relative;
+}
+
+.btn {
+  width: 70px;
+  font-size: large;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.cal-keypad {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
